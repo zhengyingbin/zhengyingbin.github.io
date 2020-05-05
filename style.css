@@ -7,12 +7,12 @@ Author URI: http://maartenpkappert.nl/dogma/
 Tags: light, white, one-column
 This theme is uncopyrighted, free, and offered as is.
 
-.
+.38.5
 */
 
 
-body 		{ width:38.5em; margin:0 0 40px 80px; font:15px/1.6em Circular,Georgia,serif; }
-h1 		{ margin:80px 0 1.4em 0; font-size:1em; font-weight:bold; }
+body 		{ width:43em; margin:0 0 40px 80px; font:14px/1.6em Circular,Georgia,serif; }
+h1 		{ margin:80px 0 1.4em 0; font:15px/1.6em Circular,Georgia,serif;font-size:1em; font-weight:bold; }
 h2		{ margin:0 0 1.4em 0; font-size:1em; font-weight:bold; }
 h3 		{ margin:120px 0 1.4em 0; font-size:1em; font-weight:bold; }
 h4 		{ margin:120px 0 1.4em 0; font-size:1em; font-weight:bold; }
@@ -22,7 +22,7 @@ a.no-border	{ border-bottom: 0; }
 a.marklet	{ border:1px solid; padding:0 3px 0 3px; } 
 .wp-caption-text{ font-style:italic; }
 
-ul, ol 		{ margin:0 0 1.4em 0; padding:0; }
+ul, ol 		{ margin:0 0 1.4em 0; padding:0; font:13.5px/1.6em Circular,Georgia,serif;}
 ul		{ margin:0 0 1.4em 15px;}
 
 ul li 		{ list-style:circle; margin:0 }
