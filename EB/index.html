@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Evolving Boxes for Fast Vehicle Detection</title>
+<meta content="Evolving Boxes for Fast Vehicle Detection" name="description">
+<link href="./index_files/page_style.css" type="text/css" rel="stylesheet">
+<!--link rel="icon" href="../zyb.ico" mce_href="zyb.ico" type="image/x-icon"-->
+</head>
+
+<body>
+<div id="container" style="WIDTH: 766px">
+	<div class="section" align="center">
+	<br>
+	<h1>Evolving Boxes for Fast Vehicle Detection</h1>
+        </div>
+	
+	<div class="section">
+<font size="3">
+	<h2>Overview</h2>
+	<p>We perform fast vehicle detection from traffic surveillance cameras. The classic cascade object detection is revisited and a novel deep learning framework, namely Evolving Boxes, is developed that proposes and refines the object boxes under different feature representations. Specifically, our framework is embedded with a light-weight proposal network to generate initial anchor boxes as well as to early discard unlikely regions; a fine-turning network produces detailed features for these candidate boxes. We show intriguingly that by apply different feature fusion techniques, the initial boxes can be refined in terms of both localization and recognition, leading to evolved boxes.<br> </p>
+		
+<p style="text-align: center">
+<img src="./index_files/architecture.webp" width="700">
+</p>
+<p>We evaluate our network on the recent DETRAC benchmark and obtain a significant improvement over the state-of-the-art Faster RCNN by 9.5% mAP. Further, our network achieves 9-13 FPS detection speed on a moderate commercial GPU. <br> </p>
+<p style="text-align: center">
+<img src="./index_files/ebresult.webp" width="600">
+</p>
+
+<br>
+
+<h2>Code</h2>
+	
+<p> The code can be downloaded from <a href="https://github.com/Willy0919/Evolving_Boxes.git">github</a>.</p>        
+<p>Please cite our paper if you use the code in your research:
+<pre>
+<font style="color: grey; font-size:8pt; font-family: Verdana">@inproceedings{wang2017evolving,
+    title={Evolving boxes for fast vehicle detection},
+    author={Li Wang and Yao Lu and Hong Wang and Yingbin Zheng and Hao Ye and Xiangyang Xue},
+    booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
+    pages={1135--1140},
+    year={2017}
+}
+</font>
+</pre>
+</p>
+
+	<h2>Related Publication</h2>
+<ul>
+<li>L. Wang, Y. Lu, H. Wang, Y. Zheng, H. Ye, X. Xue<br>
+<b>Evolving Boxes for Fast Vehicle Detection</b> <a href="https://arxiv.org/pdf/1702.00254.pdf">[pdf]</a><br>
+In <font style="font-style:italic;">IEEE International Conference on Multimedia and Expo (ICME)</font>, 2017. <br>
+<font color=red>Platinum Best Paper Award</font>
+</li>
+</ul>	
+	</font>
+	<font size="3"><a href="../">[Back]</a></font>
+</div>
+</body>
+
+</html>
